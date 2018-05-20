@@ -13,6 +13,7 @@
           <tr>
               <td>&#x2714;</td>
               <td>Item</td>
+              <td>Urgency</td>
               <td>Due</td>
           </tr>
       </thead>
@@ -27,6 +28,7 @@
                 </form>
               </td>
               <td>@item.Title</td>
+              <td id="urgency">@item.Urgency</td>
               <td>@item.DueAt.Humanize()</td>
           </tr>
       }

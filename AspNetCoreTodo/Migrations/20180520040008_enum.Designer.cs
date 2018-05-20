@@ -12,9 +12,10 @@ using System;
 namespace AspNetCoreTodo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180520040008_enum")]
+    partial class @enum
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -84,7 +85,7 @@ namespace AspNetCoreTodo.Migrations
                     b.Property<string>("Title")
                         .IsRequired();
 
-                    b.Property<int?>("Urgency");
+                    b.Property<int>("Urgency");
 
                     b.HasKey("Id");
 
