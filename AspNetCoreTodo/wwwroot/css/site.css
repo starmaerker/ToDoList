@@ -44,8 +44,16 @@ div.todo-panel {
     color: #888;
   }
 
-#urgency {
-    background-color : lightblue;
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
 }
 
 

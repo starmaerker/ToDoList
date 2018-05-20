@@ -28,7 +28,10 @@
                 </form>
               </td>
               <td>@item.Title</td>
-              <td id="urgency">@item.Urgency</td>
+              @if (item.Urgency == UrgencyList.very)  { <td class="red">@item.Urgency</td>}
+              else if (item.Urgency == UrgencyList.normal) { <td class="yellow">@item.Urgency</td> }
+              else if (item.Urgency == UrgencyList.less) { <td class="green">@item.Urgency</td> }
+              else { <td></td> }
               <td>@item.DueAt.Humanize()</td>
           </tr>
       }
