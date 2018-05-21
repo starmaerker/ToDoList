@@ -18,5 +18,7 @@ namespace AspNetCoreTodo.Models
         public UrgencyList? Urgency { get; set; }
 
         public DateTimeOffset? DueAt { get; set; }
+
+        public string UserId { get; set; }
     }
 }
