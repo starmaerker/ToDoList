@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreTodo", "AspNetCoreTodo\AspNetCoreTodo.csproj", "{0832EB44-13D6-4DBA-A6FA-052C25D718A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo", "AspNetCoreTodo\AspNetCoreTodo.csproj", "{0832EB44-13D6-4DBA-A6FA-052C25D718A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo.UnitTests", "AspNetCoreTodo.UnitTests\AspNetCoreTodo.UnitTests.csproj", "{AD7450F6-8AF1-4289-A9FC-2AF1C952A198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreTodo.IntegrationTests", "AspNetCoreTodo.IntegrationTests\AspNetCoreTodo.IntegrationTests.csproj", "{96F30AFD-98C5-4828-A7CB-D07146C497AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0832EB44-13D6-4DBA-A6FA-052C25D718A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0832EB44-13D6-4DBA-A6FA-052C25D718A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0832EB44-13D6-4DBA-A6FA-052C25D718A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7450F6-8AF1-4289-A9FC-2AF1C952A198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7450F6-8AF1-4289-A9FC-2AF1C952A198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7450F6-8AF1-4289-A9FC-2AF1C952A198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7450F6-8AF1-4289-A9FC-2AF1C952A198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F30AFD-98C5-4828-A7CB-D07146C497AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F30AFD-98C5-4828-A7CB-D07146C497AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F30AFD-98C5-4828-A7CB-D07146C497AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F30AFD-98C5-4828-A7CB-D07146C497AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
