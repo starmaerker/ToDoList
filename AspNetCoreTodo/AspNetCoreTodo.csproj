@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <UserSecretsId>aspnet-AspNetCoreTodo-AD339D03-8B88-4F9F-95EB-0D384F4426DF</UserSecretsId>
+    <UserSecretsId>aspnet-AspNetCoreTodo-AD339D03-8B88-4F9F-95EB-0D384F4426DF</UserSecretsId>    
   </PropertyGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
